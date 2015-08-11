@@ -1,0 +1,155 @@
+body{
+	background-color: #6ADEF7;
+	margin:0px;
+}
+hr{
+	background-color:white;
+	height:4px;
+	color:white;
+	border:0px none;
+}
+#fullcontainer{
+
+}
+#headercontainer{
+	width:100%;
+	height:60px;
+}
+
+#header{
+	width: 100%;
+	height: 100%;
+	max-width: 900px;
+	font-size:40px;
+	color: purple;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topnavcontainer{
+	width: 100%;
+	min-height: 44px;
+	height: 44px;
+	height:auto !important;
+	position:fixed;
+	z-index:99;
+}
+
+#topnav{
+	width:1024px;
+	min-height: 44px;
+	height: 44px;
+	height:auto !important;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#topnav a{
+	line-height:40px;
+	height:40px;
+	display:inline-block;
+	text-decoration:none !important;
+	color:inherit;
+	font-size:20px;
+	width:222px;
+	text-align:center;
+	transition: border .3s;
+}
+#topnav a:hover{
+	border-bottom:4px solid white;
+}
+}
+#mainbodycontainer{
+	width: 100%;
+	min-height:600px;
+	height:auto !important;
+	height:650px;
+	position:relative;
+}
+#mainbody{
+	padding-top:50px;
+	min-height:600px;
+	height:auto !important;
+	height:600px;
+	width:1024px;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footercontainer{
+	width: 100%;
+	min-height: 40px;
+}
+#footer{
+	height: 40px;
+	width:1024px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+}
+.footericons{
+	float:right;
+	margin: 0px 5px 0px 0px;
+}
+#bragaboutcontainer{
+
+}
+#tifloginform{
+	padding-left:5px;
+	float:left;
+	bottom:5px;
+	width:500px;
+	height:24px;
+}
+#tifloginform input{
+	display:inline;
+}
+#musicinside{
+	padding-left:200px;
+	padding-right:200px;
+}
+.musicitems{
+	display:inline;
+}
+.musicitems img{
+	float:left;
+}
+.musicitems h1{
+	float:right;
+	margin-left:20px;
+	margin-top:0px;
+}
+.musicitems audio{
+	float:right;
+	height:28px;
+	width:320px;
+}
+.musicitems span{
+	font-size:24px;
+	margin-top:10px;
+	margin-right:10px;
+}
+.albumartandname{
+	display:inline-block;
+}
+#commentsinside{
+	padding-left:200px;
+	padding-right:200px;
+}
+#commentsuserinput{
+	margin-top:20px;
+	display:inline-block;
+}
+#commentsuserinput input{
+	margin-left:auto;
+	margin-right:auto;
+}
+#commentarea{
+	width:624px;
+	height:500px;
+	max-height:900px;
+	background-color:white;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>TIFWhitney</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../static/css/tifwhitney.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/w3full.css">
+		<link href="../static/css/js-image-slider.css" rel="stylesheet" type="text/css">
+    	<script src="../static/javascript/js-image-slider.js" type="text/javascript"></script>
+    	<script type="text/javascript" src="../static/javascript/soundmanager2.js"></script>
+		<script type="text/javascript" src="../static/javascript/bar-ui.js"></script>
+		<script type="text/javascript" src="../static/javascript/swfobject.js"></script>
+		<link rel="stylesheet" href="../static/css/bar-ui.css" />
+	</head>
+
+	<!--  -->
+
+	<body>
+		<div id="fullcontainer">
+			<div id="topnavcontainer" class="deep-purple-l1">
+				<div id="topnav" class="deep-purple-l1">
+					<a href="/">-HOME-</a>
+					<a href="music">-MUSIC-</a>
+					<a href="comments">-COMMENTS-</a>
+					<a href="contact">-CONTACT-</a>
+				</div>
+			</div>
+
+			<!-- freaking mainbody -->
+
+			<div id="mainbodycontainer">
+				<div id="mainbody" class="w3-container">
+					<div id="musicinside">
+
+						<script language="javascript" type="text/javascript">
+							var so = new SWFObject("../static/flash/flashmp3player.swf", "player", "300px", "60px", "9"); // Location of swf file. You can change player width and height here (using pixels or percents).
+							so.addParam("quality", "high");
+							so.addVariable("content_path","../music"); // Location of a folder with mp3 files (relative to php script).
+							so.addVariable("color_path","../static/xml/default.xml"); // Location of xml file with color settings.
+							so.addVariable("script_path","../static/php/flashmp3player.php"); // Location of php script.
+							so.write("player");
+						</script>
+												
+
+						<div class="musicitems">
+							<div class="albumartandname">
+								<img height="100" width="100" src="../static/images/logoface.png">
+								<h1>christian</h1>
+							</div>
+
+							<ul class="w3-ul">
+								<li><span>drops</span>
+								<audio id="player2" controls="controls">
+									<source src="../static/music/hawk nelson - drops in the ocean 528.mp3" type="audio/mpeg">
+								</audio></li>
+							</ul>
+						</div>
+						<br>
+						
+						<hr>
+
+						<div class="musicitems">
+							<div class="albumartandname">
+								<img height="100" width="100" src="../static/images/logoface.png">
+								<h1>feel good</h1>
+							</div>
+							<ul class="w3-ul">
+								<li>
+									<span>come with me</span>
+									<audio controls>
+										<source src="../static/music/come with me - tif whitney 528.mp3" type="audio/mpeg">
+									</audio>
+								</li>
+								<li>
+									<span>you and me</span>
+									<audio controls>
+										<source src="../static/music/skrux - you and me 528.mp3" type="audio/mpeg">
+									</audio>
+								</li>
+								<li>
+									<span>come with me</span>
+									<audio controls>
+										<source src="../static/music/porter robinson - language 528.mp3" type="audio/mpeg">
+									</audio>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footercontainer">
+				<div id="footer" class="w3-container deep-purple-l1">
+					<div id="tifloginform">
+						<form>
+							User:<input type="text" name="tifuserform">
+							Pass:<input type="password" name="tifpassform">
+							<input type="submit" value="Login">
+						</form>
+						
+					</div>
+					<div class="footericons">
+						<a target="_blank" href="https://www.facebook.com/pages/TIF-Music/585413191486286?fref=ts"><img src="../static/images/facebook.png"></a>
+						<a target="_blank" href="https://twitter.com/TIFWhitney"><img src="../static/images/twittersmall.png"></a>
+						<a target="_blank" href="https://soundcloud.com/tifwhitney-1"><img src="../static/images/soundcloud.png"></a>
+						<a target="_blank" href="https://www.youtube.com/user/djtifwhitneydubstep"><img src="../static/images/youtube.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+	</body>
+</html>
